@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* Contacts profiles*/
+@import "reset.css";
+
+
+
+
+
+
+.contacts {
+	width : 30px;
+}
+.contacts--profiles {
+	background : black;
+	padding : 10px 0px 10px 10px;
+	height: 75px;
+}
+
+.contacts--profiles-avatar img {
+	width : 70px;
+	border-radius: 50px;
+	border: 1px solid black;
+}
+
+.contacts--profiles-names span {
+	display: block;
+	margin-top: 25px;
+	font-size: 20px;
+}
+.contacts--profiles-avatar {
+	width : 20%;
+}
+.contacts--profiles-names {
+	width: 70%;
+}
+
+.contacts--profiles-avatar, .contacts--profiles-names {
+	float: left;
+}
+
+/* Contacts List*/
+
+.contacts--list ul li{
+	text-decoration: none;
+	padding :10px 10px;
+	border-bottom: 1px solid block;
+	height: 55px;
+	
+}
+.contacts--list ul li:last-child {
+	border : none;
+}
+.contacts--list-item-avatar, .contacts--list-item-name, .contacts--list-item-counter {
+	float: left;
+}
+.contacts--list-item-avatar img {
+	width: 50px;
+	border-radius: 50px;
+}
+.contacts--list-item-names, .contacts--list-item-counter {
+	margin-left: 10px;
+}
+.contacts--list-item-names span, .contacts--list-item-counter span {
+	margin-top: 20px;
+	display: block;
+	font-size: 17px;
+}
+
+/*.messages {
+	float: left;
+	background: red;
+	width: 100px;
+}
+
+/*div {
+	float;
+}
+.left {
+	background: blue;
+}
+}
+.right {
+	background: red;
+}
+
+
+/*
+@media screen and (max-width : 640px) {
+	div {
+		background: orange !important;
+		margin-right: 0px !important;
+		margin-bottom: 5px !important;
+		float: none !important;
+		width :100% !important;
+
+
+	}
+}*/
